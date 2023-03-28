@@ -17,10 +17,10 @@
             <button id='btnNuevo' class="btn btn-danger">
                 Nuevo Juego
             </button>
-            <button id='btnPedir' class="btn btn-primary">
+            <button id='btnPedir' disabled="disabled" class="btn btn-primary">
                 Pedir Carta
             </button>
-            <button id='btnDetener' class="btn btn-primary">
+            <button id='btnDetener' disabled="disabled" class="btn btn-primary">
                 Detener
             </button>
         </div>
@@ -28,7 +28,7 @@
     <div class="row container">
         <div class="col">
             <h1>Jugador 1 - <small>0</small></h1>
-            <div id="jugador-cartas">
+            <div id="jugador-cartas" class="divCartas">
                 <!-- <img class="carta" src="./assets/cartas/10C.png" alt="carta"> -->
             </div>
         </div>
@@ -36,12 +36,12 @@
     <div class="row container mt-2">
         <div class="col">
             <h1>PC - <small>0</small></h1>
-            <div id="computadora-cartas">
+            <div id="computadora-cartas" class="divCartas">
                 <!-- <img class="carta" src="./assets/cartas/10C.png" alt="carta"> -->
             </div>
         </div>
     </div>
     <script src="./assets/js/underscore-min.js"></script>
-    <script src="./assets/js/juego.js"></script>
+    <script src="./assets/js/juego-min.js"></script>
 </body>
 </html>
