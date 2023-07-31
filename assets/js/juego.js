@@ -1,8 +1,8 @@
 /*
-* 2C = tow of clubs (dos de treboles)
-* 2D = tow of diamonds (dos de diamantes)
-* 2H = tow of hearts (dos de corazones)
-* 2s = tow of spades (dos de espadas)
+* 2C = two of clubs (dos de treboles)
+* 2D = two of diamonds (dos de diamantes)
+* 2H = two of hearts (dos de corazones)
+* 2s = two of spades (dos de espadas)
 */
 
 //patrón modulo (funcion anónima auto-invocada)
